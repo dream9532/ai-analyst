@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "title": "Qingdaizhi Fintech Theme",
+  "type": "template",
+  "content": {
+    "header": {
+      "logo": "/wp-content/uploads/logo.png",
+      "menu": [
+        "首頁",
+        "健診方案",
+        "報告示例",
+        "部落格",
+        "聯絡我們"
+      ],
+      "cta": "立即開始"
+    },
+    "fonts": {
+      "primary": "Noto Sans TC",
+      "secondary": "Inter"
+    },
+    "colors": {
+      "primary": "#0C1115",
+      "secondary": "#0DB77A",
+      "accent": "#C1A875",
+      "text": "#E4E4E4",
+      "muted": "#5A5F63"
+    }
+  }
+}

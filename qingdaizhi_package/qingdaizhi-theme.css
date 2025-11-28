@@ -1,0 +1,53 @@
+:root {
+  --primary-bg: #0c1115;
+  --primary-green: #0db77a;
+  --primary-gold: #c1a875;
+  --text-light: #e4e4e4;
+  --text-muted: #8a8f95;
+  --border-color: rgba(255,255,255,0.08);
+}
+
+/* 背景色調 */
+body {
+  background: var(--primary-bg);
+  color: var(--text-light);
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+/* 卡片 */
+.fin-card {
+  background: #11161b;
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+  padding: 32px;
+  transition: .3s;
+}
+.fin-card:hover {
+  border-color: var(--primary-green);
+  transform: translateY(-4px);
+}
+
+/* 金流按鈕（主 CTA） */
+.fin-cta {
+  background: var(--primary-green);
+  color: #fff;
+  padding: 14px 32px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: .3s;
+}
+.fin-cta:hover {
+  background: #0fcf8a;
+}
+
+/* 次 CTA（金色） */
+.fin-cta-alt {
+  border: 1px solid var(--primary-gold);
+  color: var(--primary-gold);
+  padding: 14px 32px;
+  border-radius: 10px;
+}
+.fin-cta-alt:hover {
+  background: var(--primary-gold);
+  color: #000;
+}

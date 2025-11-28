@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans TC", sans-serif;
+  background: #0c1115;
+  color: #e4e4e4;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.nav a {
+  color: #e4e4e4;
+  margin-right: 20px;
+}
+
+.cta {
+  background: #0db77a;
+  padding: 12px 26px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+}
+
+.hero {
+  margin: 80px auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.hero-text h1 {
+  font-size: 42px;
+}
+
+.plans {
+  padding: 60px 40px;
+}
+
+.plan-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.plan-card {
+  background: #11161b;
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.plan-card.pro {
+  border-color: #c1a875;
+}
