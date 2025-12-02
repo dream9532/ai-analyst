@@ -7,7 +7,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="zh-Hant"
       className="scrollbar-track-transparent scrollbar-thumb-foreground/10"
     >
       <body>{children}</body>
